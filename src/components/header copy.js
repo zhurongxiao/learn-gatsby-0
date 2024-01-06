@@ -13,20 +13,19 @@ import {
 
 
 
-function Header() {
+function Header(args) {
 
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
-      <Navbar light expand="sm" >
-        <div className="container d-flex ">
-
-          <NavbarBrand href="/" className="">code blog</NavbarBrand>
+      <Navbar fixed="top" light expand="sm">
+        <div className="container">
+          <NavbarBrand href="/">code blog</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="mx-auto" navbar>
+            <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="/team">Team</NavLink>
               </NavItem>

@@ -16,6 +16,9 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-catch-links`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

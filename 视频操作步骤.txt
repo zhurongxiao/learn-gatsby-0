@@ -1,0 +1,8 @@
+
+视频第3节
+
+1.安装bootstrap reactstrap
+npm install bootstrap reactstrap
+
+1.安装sass插件,把scss编译为css
+npm install gatsby-plugin-sass node-sass

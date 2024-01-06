@@ -5,9 +5,9 @@ import Seo from "../components/seo"
 
 
 
-const Aboutpage = () => (
+const TeamPage = () => (
     <Layout>
-        <h1>About us...</h1>
+        <h1>Our team... </h1>
     </Layout>
 )
 
@@ -16,6 +16,6 @@ const Aboutpage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="Team" />
 
-export default Aboutpage
+export default TeamPage
